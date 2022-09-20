@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+*{
+  margin: 5px;
+  padding: 0;
+}
+h1{
+  color: #fff;
+}
+.nav-prime {
+  width: 100%;
+  background-color: aqua;
+
+}
+.nav-prime, .nav-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content{
+  width: 10%;
+  color: #fff;
+}
