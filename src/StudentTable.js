@@ -48,12 +48,12 @@
 // <Table dataSource={StudentData()} columns={columns} />
 //   );
 // }
-import studentData from './util/studentData'
+
 import React from 'react'
 
-function StudentTable() { 
+function StudentTable({StudentArr}) { 
 
-  let StudentArr = studentData()
+  // let StudentArr = studentData()
  
   return (
    <div className='table-container'>
